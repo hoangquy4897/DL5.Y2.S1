@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClCompile Include="Diem.cpp" />
     <ClCompile Include="DuongThang.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="TamGiac.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
