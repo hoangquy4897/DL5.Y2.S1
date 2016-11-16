@@ -14,7 +14,7 @@ public:
 	{
 		a = cuoi.GetHoanhDo() - dau.GetHoanhDo();
 		b = -(cuoi.GetTungDo() - dau.GetTungDo());
-		c = -a*dau.GetHoanhDo() + b*dau.GetTungDo();
+		c = -a*dau.GetHoanhDo() - b*dau.GetTungDo();
 	}
 	~CDuongThang() {};
 	CDiem TimGiaoDiem(CDuongThang&); //Tim giao diem voi mot duong thang khac
